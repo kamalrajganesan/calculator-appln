@@ -1,6 +1,6 @@
 <div align = center>
 
-![View Counter](https://komarev.com/ghpvc/?username=calculator&label=View%20Counter&color=red&style=flat) &nbsp; &nbsp; ![Repo Size](https://img.shields.io/github/repo-size/rajput-hemant/calculator?color=blue)
+![View Counter](https://komarev.com/ghpvc/?username=calculator&label=View%20Counter&color=red&style=flat) &nbsp; &nbsp; ![Repo Size](https://img.shields.io/github/repo-size/Khushal-ag/calculator?color=blue)
 
 <img src='assets/images/app_icon.png' width='200'>
 
@@ -14,7 +14,9 @@
 
 **[<kbd> <br> **Universal Release** <br> </kbd>][universal-release]** &nbsp;&nbsp;
 **[<kbd> <br> **arm64** <br> </kbd>][arm64]**&nbsp;&nbsp;
+**[<kbd> <br> **x64** <br> </kbd>][x64]**&nbsp;&nbsp;
 **[<kbd> <br> **armabi** <br> </kbd>][armabi]**&nbsp;&nbsp;
+**[<kbd> <br> **ios Release** <br> </kbd>][ios]**&nbsp;&nbsp;
 **[<kbd> <br> **Source Code (zip)** <br> </kbd>][sc-zip]**&nbsp;&nbsp;
 **[<kbd> <br> **Source Code (tar.gz)** <br> </kbd>][sc-tar.gz]**
 
@@ -153,14 +155,14 @@ calculator
 - Fetch latest source code from master branch.
 
 ```console
-rajput-hemant@arch:~$ git clone https://github.com/rajput-hemant/calculator
+Khushal-ag@arch:~$ git clone https://github.com/Khushal-ag/calculator
 ```
 
 - Run the app with Android Studio or VS Code. Or the command line:
 
 ```console
-rajput-hemant@arch:~$ flutter pub get
-rajput-hemant@arch:~$ flutter run
+Khushal-ag@arch:~$ flutter pub get
+Khushal-ag@arch:~$ flutter run
 ```
 
 <div align = center>
@@ -192,14 +194,16 @@ rajput-hemant@arch:~$ flutter run
 
 <!------------------------------------{ apk }----------------------------------->
 
-[universal-release]: https://github.com/rajput-hemant/calculator/releases/download/v0.1.0/Calculator-v0.1.0-universal-release.apk
-[arm64]: https://github.com/rajput-hemant/calculator/releases/download/v0.1.0/Calculator-v0.1.0-arm64.apk
-[armabi]: https://github.com/rajput-hemant/calculator/releases/download/v0.1.0/Calculator-v0.1.0-armeabi.apk
+[universal-release]: https://github.com/Khushal-ag/calculator/releases/download/v0.1.0/Calculator-v0.1.0-universal-release.apk
+[arm64]: https://github.com/Khushal-ag/calculator/releases/download/v0.1.0/Calculator-v0.1.0-arm64.apk
+[x64]: https://github.com/Khushal-ag/calculator/releases/download/v0.1.0/Calculator-v0.1.0-x64.apk
+[armabi]: https://github.com/Khushal-ag/calculator/releases/download/v0.1.0/Calculator-v0.1.0-armeabi.apk
+[ios]: https://github.com/Khushal-ag/calculator/releases/download/v0.1.0/Payload.ipa
 
 <!--------------------------------{ source code }------------------------------->
 
-[sc-zip]: https://github.com/rajput-hemant/calculator/archive/refs/tags/v0.1.0.zip
-[sc-tar.gz]: https://github.com/rajput-hemant/calculator/archive/refs/tags/v0.1.0.tar.gz
+[sc-zip]: https://github.com/Khushal-ag/calculator/archive/refs/tags/v0.1.0.zip
+[sc-tar.gz]: https://github.com/Khushal-ag/calculator/archive/refs/tags/v0.1.0.tar.gz
 
 <!-----------------------------{ dependencies used }---------------------------->
 
