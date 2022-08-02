@@ -130,16 +130,8 @@ class AboutScreen extends StatelessWidget {
                         'Khushal Agarwal', 'https://github.com/Khushal-ag'),
                     teamTile(
                         'Hemant Rajput', 'https://github.com/rajput-hemant'),
-                    teamTile('Ritik Kuntal', 'https://github.com/b49-Ritik'),
-                    teamTile('Vikas Singh', 'https://github.com/B-63Vikas'),
-                    teamTile(
-                        'Ayush Sharma', 'https://github.com/AyushSharma3566'),
-                    teamTile(
-                        'Suhani Pachouri', 'https://github.com/Suhanipachouri'),
-                    teamTile(
-                        'Sakshi Chaudhary', 'https://github.com/Sakshi-Chy27'),
-                    teamTile('Kuhoo Saxena', 'https://github.com/SaxenaKuhoo'),
                     teamTile('Shruti', 'https://github.com/shru-ty'),
+                    teamTile('Kuhoo Saxena', 'https://github.com/SaxenaKuhoo'),
                   ],
                 ),
                 buttons: [
