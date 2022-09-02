@@ -1,6 +1,7 @@
 import 'dart:developer';
 
 class CalculatorBrain {
+  String mainOutput = '0';
   String output = '0';
   String _output = '0';
 
@@ -14,6 +15,7 @@ class CalculatorBrain {
   String buttonPressed(String buttonText) {
     if (buttonText == 'AC') {
       output = '0';
+      mainOutput = '0';
       _output = '0';
       num1 = 0;
       num2 = 0;
@@ -26,14 +28,17 @@ class CalculatorBrain {
       if (_output == '0') {
         _output = '-';
         output = _output;
+        mainOutput = output;
         resultOperationText = output;
       } else if (_output.contains('-', 0)) {
         _output = _output.substring(1, _output.length);
         output = _output;
+        mainOutput = output;
         resultOperationText = output;
       } else {
         _output = '-$_output';
         output = _output;
+        mainOutput = output;
         resultOperationText = output;
       }
       return output;
@@ -46,6 +51,7 @@ class CalculatorBrain {
         }
         _output = (num1 / 100).toString();
         output = _output;
+        mainOutput = output;
         _output = '';
         num1 = 0;
         resultOperationText = output;
@@ -58,6 +64,7 @@ class CalculatorBrain {
         _output = '0';
       }
       output = _output;
+      mainOutput = output;
       resultOperationText = output;
     } else if (buttonText == '+' ||
         buttonText == '-' ||
@@ -69,6 +76,7 @@ class CalculatorBrain {
         num1 = int.parse(output);
       }
       operator = buttonText;
+      mainOutput = num1.toString();
       resultOperationText = operator;
       isPressedPercentageButton = false;
       log(operator);
@@ -77,10 +85,13 @@ class CalculatorBrain {
       if (_output.contains('.')) {
         _output = _output;
         output = _output;
+        mainOutput = output;
         resultOperationText = output;
       } else {
         _output = _output + buttonText;
         output = _output;
+        mainOutput = output;
+        mainOutput = output;
         if (resultOperationText == '0') resultOperationText = '';
         resultOperationText = output;
       }
@@ -102,8 +113,10 @@ class CalculatorBrain {
       operator = '';
       if (_output.contains('.')) {
         output = double.parse(_output).toStringAsFixed(2);
+        mainOutput = double.parse(_output).toStringAsFixed(2);
       } else {
         output = _output;
+        mainOutput = output;
       }
       resultOperationText = '';
       _output = '';
@@ -117,6 +130,6 @@ class CalculatorBrain {
       resultOperationText = resultOperationText + buttonText;
     }
     log(output);
-    return output;
+    return mainOutput;
   }
 }
